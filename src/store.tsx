@@ -11,6 +11,10 @@ interface Props {
 
 const AppStateContext = createContext<Props | null>(null);
 
+// Change from branch A
+// Change from branch B
+// Change from branch C
+// Change from branch D
 export const AppStateProvider: React.FC<Props> = ({ children }) => {
   const [state, setState] = useState<State>({
     title: "teleport-project-react"
